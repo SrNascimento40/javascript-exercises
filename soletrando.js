@@ -5,4 +5,4 @@ function soletrando(palavra) {
     }
 }
 
-soletrando("maizena")
+module.exports = soletrando
