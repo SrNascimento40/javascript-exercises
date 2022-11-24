@@ -60,7 +60,7 @@ while (n > 1) {
     }
 }
 paraSomar += resultado
-
+const r = paraSomar
 console.log(paraSomar);
 
 // TODO: Calcule o valor do fatorial de "n", atribuindo o retorno a "r".
