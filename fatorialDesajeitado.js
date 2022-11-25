@@ -10,7 +10,8 @@
 // let lines = gets().split("\n"); 
 // let n = parseInt(lines.shift()); 
 
-let n = 54
+let n = 13
+console.log(n + " é o numero que vai resultar");
 
 
 let counter = 1
@@ -28,9 +29,8 @@ while (n > 1) {
 
         counter = 2
     } else if (counter === 2) {
-        resultado = Math.round(resultado / (n - 1))
+        resultado = parseInt(resultado / (n - 1))
         n--
-
         counter = 3
     } else if (counter === 3) {
         resultado = resultado + (n - 1)
@@ -59,8 +59,6 @@ while (n > 1) {
         }
     }
 }
-paraSomar += resultado
+paraSomar += (resultado)
 
-console.log(paraSomar);
-
-// TODO: Calcule o valor do fatorial de "n", atribuindo o retorno a "r".
+console.log((paraSomar));
