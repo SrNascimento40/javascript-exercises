@@ -59,6 +59,14 @@ while (n > 1) {
         }
     }
 }
+<<<<<<< HEAD:fatorialDesajeitado copy.js
 paraSomar += (resultado)
 
 console.log((paraSomar));
+=======
+paraSomar += resultado
+const r = paraSomar
+console.log(paraSomar);
+
+// TODO: Calcule o valor do fatorial de "n", atribuindo o retorno a "r".
+>>>>>>> f1d764f41d00de89eca480f10e745ff2852c6edc:fatorialDesajeitado.js
